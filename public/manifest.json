@@ -1,0 +1,51 @@
+{
+  "name": "ترياق · نظام إدارة الصيدلية",
+  "short_name": "ترياق",
+  "description": "إدارة صيدلية كاملة: بيع وباركود ومخزون ومذاخر وديون وأقساط وطلبية ذكية",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "dir": "rtl",
+  "lang": "ar",
+  "background_color": "#f5f8f7",
+  "theme_color": "#0d2136",
+  "categories": [
+    "business",
+    "medical",
+    "productivity"
+  ],
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "شاشة البيع",
+      "short_name": "بيع",
+      "url": "./?tab=sale"
+    },
+    {
+      "name": "المخزون",
+      "short_name": "مخزون",
+      "url": "./?tab=stock"
+    }
+  ]
+}
